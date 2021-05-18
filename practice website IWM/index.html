@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<!--Head Section-->
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+  <title>Practice Website</title>
+  <link href="images/favicon.ico" rel="icon" /> 
+
+</head>
+
+<!--Body Section-->
+<body>
+
+  <a href="https://www.w3schools.com/tags/tag_hr.asp" target="_blank"><hr></a>
+
+  <h1>My Intro</h1>
+
+  <a href="./secondpage.html" target="_blank">Link to second page</a>
+
+  <div id="Who Am I">
+
+    <h2>Who am I?</h2>
+    <ul>
+        <li>I’m a senior at the University of Minnesota 
+            studying computer science</li>
+        <li>My club “Small Satellite Research Lab” 
+            is building a satellite and launching it in 2023</li>
+        <li>I’m reading “Sarum” by Edward Rutherfurd. 
+            It’s a novel about English history</li>
+        <li>I love the show Impractical Jokers - 
+            their clips always crack me up!</li>
+    </ul>
+    <img src="./images/adam1.jpg" alt="Adam" width="25%" height="25%"/>
+  </div>
+  
+  <div id="Where Am I From">
+    <h2>Where am I from?</h2>
+    <p class="green-text">I'm from <a href=
+        "https://en.wikipedia.org/wiki/Madison,_Wisconsin" target="_blank">Madison WI!</a></p>
+    <p>Fun fact: The cheese used to make the 
+        moon was imported from Wisconsin</p>
+    <img src="./images/madison.jpg" alt="Madison" />
+  </div>
+
+  <div id="learning">
+    <h2>How do I learn?</h2>
+    <ol>
+        <li>Research topic to get a better understanding</li>
+        <li>Practice a few problems, get feedback from peers/mentor</li>
+        <li>Repeat</li>
+        <li>Try to explain it to someone else - 
+            if I can do it, nice! If not, go back to step one</li>
+    </ol>
+    <img src="images/studying.jpg" alt="Studying" />
+  </div>
+
+  <!--Finishing off the list-->
+
+  <section class="verify-human">
+    <h2>Miscellaneous</h2>
+    <h3>Are you a human?</h3>
+
+    <input type="radio" name="verify-human" id="yes" />
+    <label for="yes">Yes</label>
+
+    <input type="radio" name="verify-human" id="no" />
+    <label for="no">No</label>
+
+  </section>
+
+  <section class="button-section">
+    <h3>Buttons</h3>
+
+    <button onclick="greenFunction()" class="button" type="button" id="green-button"></button>
+    <button onclick="redFunction()" class="button" type="button" id="red-button"></button>
+
+    <p id="button-text"></p>
+
+    <script>
+        function greenFunction(){
+          document.getElementById("button-text").innerHTML = "Go!";
+        }
+        function redFunction(){
+          document.getElementById("button-text").innerHTML = "Stop!";
+        }
+    </script>
+  </section>
+
+</body>
+</html>

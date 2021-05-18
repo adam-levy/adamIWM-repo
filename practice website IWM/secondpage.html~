@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Practice Website</title>
+    <link href="images/favicon.ico" rel="icon" />
+    
+  </head>
+  <body>
+
+    <h1>Second Page</h1>
+    <p>More information would follow</p>
+
+  </body>
+
+</html>
