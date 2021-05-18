@@ -2,17 +2,18 @@ p{
   font-family:'Times New Roman', Times, serif;
 }
 
-hr {
+.navigation {
     display: block;
-    margin-top: 0.2em;
     margin-bottom: 0.5em;
     margin-left: auto;
     margin-right: auto;
-    height: 1px;
+    height: 50px;
     width: 96%;
     position:fixed;
+    background-color: lightblue;
 }
 
+/*PROBLEM: a:visited is always activated, meaning links will always be purple, even if I haven't visited the website.*/
 a:link {
     color:blue;
 }
