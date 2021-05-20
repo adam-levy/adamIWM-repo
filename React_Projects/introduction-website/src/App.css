@@ -1,0 +1,70 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-link {
+  color:royalblue;
+}
+
+.App-link::visited {
+  color:tomato;
+}
+
+.center-picture {
+  background-color: #282c34;
+  height: 40vmax;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Who-am-i {
+  background-color: white;
+}
+
+.Where-im-from {
+  background-color: #282c34;
+  color: white;
+}
+
+.Where-im-from {
+  background-color: white;
+}
+
+.Miscellaneous {
+  background-color: #282c34;
+  color: white;
+}
+
+.p {
+  padding-left: 20px;
+}
+
+.Section-Head {
+  text-align: center;
+}
+
+#student-studying {
+  height: 20vmax;
+}
